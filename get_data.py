@@ -33,7 +33,6 @@ def get_data(dataset_name):
     urllib.request.urlretrieve(test_url, test_filename)
     print(test_bytes)
 
-
 def get_all_data(args):
     if args.dataset:
         get_data(args.dataset)
